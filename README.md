@@ -5,7 +5,7 @@
 **Acc-Temp** is a Streamlit application designed to systematically support the execution and management of "Heat Acclimatization" to reduce the risk of heatstroke in summer work environments.
 
 <p align="center">
-  <img src="./images/our_logo.png" width="200" alt="Acc-Temp App Screenshot">
+  <img src="./images/our_logo.svg" width="200" alt="Acc-Temp App Screenshot">
 </p>
 
 ## Overview
