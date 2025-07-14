@@ -52,7 +52,7 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # 3. ヒーローセクション（ロゴ） ----------------------------------------------
 # ---------------------------------------------------------------------------
-logo_path = Path(__file__).resolve().parent.parent / "images" / "acc-temp-logo.png"
+logo_path = Path(__file__).resolve().parent.parent / "images" / "our_logo.svg"
 if logo_path.exists():
     st.image(str(logo_path), caption="Acc‑Temp", class_name="hero-img")
 else:
