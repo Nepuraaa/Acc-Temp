@@ -1,6 +1,9 @@
 # Acc-Temp（暑熱順化くん）
 
-![Acc-Temp logo](images/our_logo.svg)
+<p align="center">
+  <img src="images/our_logo.svg" width="400" alt="Acc-Temp logo">
+</p>
+
 
 **Acc-Temp** は、夏季の作業現場における熱中症リスクを低減するために、「暑熱順化（Heat Acclimatization）」を **OSHA（米国労働安全衛生局）の 20% ルール** に基づき、計画的・データドリブンに運用／管理するための Streamlit 製プロトタイプです。個人ごとの推奨作業割合を算出・可視化し、管理画面からパラメータを編集できます。
 
