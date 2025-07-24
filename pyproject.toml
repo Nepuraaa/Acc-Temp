@@ -1,4 +1,5 @@
 [tool.poetry]
+package-mode = false
 name = "Acc-Temp"
 version = "0.1.0"
 description = "A simple Streamlit application"
@@ -9,11 +10,35 @@ license = "MIT"
 python = "^3.10"
 streamlit = "^1.35.0"
 streamlit-authenticator = "^0.4.2"
+pydantic = "^2.7.1"
+sqlmodel = "^0.0.16"
+sqlalchemy = "^2.0.30"
+plotly = "^5.22.0"
+altair = "^5.3.0"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
-# 必要ならLinterやテストツールを追加
 black = "^24.0"
 pytest = "^8.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+mypy = "^1.10.0"
+pre-commit = "^3.7.1"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+
+[tool.flake8]
+max-line-length = 120
+ignore = ["E203", "W503", "E501", "E302", "E305", "F401", "F811", "E741", "W291", "F841", "E402"]
 
 [build-system]
 requires = ["poetry-core"]
